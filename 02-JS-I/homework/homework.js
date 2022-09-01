@@ -1,7 +1,7 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = 'Buenos dias';
+const nuevaString = 'Hola';
 
 // Crea una variable numérica, puede ser cualquier número:
 const nuevoNum = '6';
@@ -28,7 +28,7 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  return String
+  return str
   
 }
 
@@ -36,16 +36,16 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
- 
-return x+y;
+ const total=x+y;
+return total;
 }
 
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-   
-  return x-y;
+  const total=x-y; 
+  return total;
 
 }
 
@@ -53,23 +53,23 @@ function resta(x, y) {
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-   
-  return x*y;
+  const total=x*y 
+  return total;
 
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
- 
-return x/y;
+const total=x/y; 
+return total;
 }
 
 function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-if (x=y) {
+if (x===y) {
   return true;
 } else {return false;
 }
@@ -142,7 +142,7 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  return Math.pow(2,2) = 4;
+  console.log(Math.pow(2,2));
   
 
 }
@@ -150,33 +150,33 @@ function elevarAlCuadrado(num) {
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  return Math.pow(3,3) = 27;
+  console.log(Math.pow(3,3));
 }
 
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
- return Math.pow(num, exponent);
+  console.log(Math.pow(num, exponent));
 }
 
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-return Math.round(6.999);
+  console.log(Math.round(6.999));
 
 }
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-return Math.ceil(5.999);
+  console.log(Math.ceil(5.999));
 
 }
 
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-return Math.random();
+  console.log(Math.random());
 }
 
 function esPositivo(numero) {
@@ -205,8 +205,8 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-var combiando = nombre + ' ' + apellido;
-return combiando;
+var combinando = nombre + ' ' + apellido;
+return combinando;
 
 }
 
@@ -259,7 +259,8 @@ if (letra===a) {
 else if (letra.length>1) { 
   "Es incorrecto;"
 }
-else (letra==!a) {
+else (letra==!a)
+{
   return "Es incorrecto"
 }
 }
